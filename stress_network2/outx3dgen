@@ -1,0 +1,1960 @@
+ 
+ 
+*               * * * * * * * * * * * * * * * * * * * * * * * *                 
+*               *                                             *                 
+*               *    Program:  LaGriT V3.300   Linux          *                 
+*               *    date_compile: 2017/10/25 Release         *                 
+*               *    Run Time: 2019/May 14  10:11:29          *                 
+*               *    Manual:   http://lagrit.lanl.gov         *                 
+*               *                                             *                 
+*               * * * * * * * * * * * * * * * * * * * * * * * *                 
+ 
+                               -----oOo-----                                    
+             LaGriT V3 LA-CC-15-069  https://github.com/lanl/LaGriT             
+Copyright 2015. Los Alamos National Security, LLC.  This software was produced  
+under U.S. Government contract DE-AC52-06NA25396 for Los Alamos National        
+Laboratory (LANL), which is operated by Los Alamos National Security, LLC       
+for the U.S. Department of Energy. The U.S. Government has rights to use,       
+reproduce, and distribute this software. Neither the  government nor Los Alamos 
+National Security, LLC makes any warranty, express or  implied, or assumes any  
+liability for the use of this software. If software is modified to produce      
+derivative works, such modified software should be  clearly marked, so as not   
+to confuse it with the version available from LANL.                             
+                               -----oOo-----                                    
+ 
+ 
+Output log file: outx3dgen                                                      
+Command log file: logx3dgen                                                     
+ 
+read/lagrit/part1.lg/junk/binary                                                
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/copy/mo_all/cmo_tmp                                                         
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part2.lg/junk/binary                                                
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part3.lg/junk/binary                                                
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part4.lg/junk/binary                                                
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part5.lg/junk/binary                                                
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part6.lg/junk/binary                                                
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part7.lg/junk/binary                                                
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part8.lg/junk/binary                                                
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part9.lg/junk/binary                                                
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part10.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part11.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part12.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part13.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part14.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part15.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part16.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part17.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part18.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part19.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part20.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part21.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part22.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part23.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part24.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part25.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part26.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part27.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part28.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part29.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part30.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part31.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part32.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part33.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part34.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part35.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part36.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part37.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part38.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part39.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part40.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part41.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part42.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part43.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part44.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part45.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part46.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part47.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part48.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part49.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part50.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part51.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part52.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part53.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part54.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part55.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part56.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+read/lagrit/part57.lg/junk/binary                                               
+cmo/addatt/cmo_tmp/dfield/VDOUBLE/scalar/nnodes/linear/permanent/agltn          
+finish                                                                          
+cmo/addatt/cmo_tmp/b_a/VINT/scalar/nnodes/linear/permanent/gxaf                 
+finish                                                                          
+cmo/addatt/cmo_tmp/transauto/VDOUBLE/scalar/vector/user/permanent/x             
+finish                                                                          
+cmo/addatt/cmo_tmp/family_id/VINT/scalar/nelements/linear/temporary/agltn       
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_one/VDOUBLE/scalar/nelements/linear/temporary/agltn     
+finish                                                                          
+cmo/addatt/cmo_tmp/evol_sum/REAL/scalar/scalar/constant/permanent/agltn         
+finish                                                                          
+addmesh/merge/mo_all/mo_all/cmo_tmp                                             
+cmo/move/-tmp_source_internal-/mo_all                                           
+finish                                                                          
+cmo/delete/-tmp_source_internal-/                                               
+     Released Mesh Object: -tmp_source_internal-                                
+finish                                                                          
+cmo/delete/cmo_tmp                                                              
+     Released Mesh Object: cmo_tmp                                              
+# Appending the meshes complete                                                 
+# LaGriT Code to remove duplicates and output the mesh                          
+cmo/select/mo_all                                                               
+#recon 1                                                                        
+define/EPS/1.000000e-06                                                         
+define/EPS_FILTER/1.000000e-04                                                  
+pset/pinter/attribute/dfield/1,0,0/lt/EPS                                       
+ 
+ THE PSET  pinter  HAS      47274 POINTS                                        
+#cmo / addatt / mo_all / inter / vint / scalar / nnodes                         
+#cmo / setatt / mo_all / inter / 1 0 0 / 0                                      
+#cmo / setatt / mo_all / inter / pset, get, pinter / 1                          
+filterkd/pset get pinter/EPS_FILTER/nocheck                                     
+FILTERKD:User specified value =    0.100000000000E-03                           
+FILTERKD: option nocheck                                                        
+FILTERKD:Dudding duplicate points:         23637                                
+pset/pinter/delete                                                              
+ 
+ PSET pinter   DELETED                                                          
+ 
+rmpoint/compress                                                                
+     23637 points removed and          0 elements removed.                      
+RMPOINT: new point count is       559857                                        
+RMPOINT: new element count is    1132390                                        
+# SORT can affect a_b attribute                                                 
+sort/mo_all/index/ascending/ikey/imt xic yic zic                                
+cmo/addatt/mo_all/ikey/vint/scalar/nnodes///gax/0                               
+finish                                                                          
+ SORT: order key written to attribute: ikey                                     
+ 
+reorder/mo_all/ikey                                                             
+cmo/DELATT/mo_all/ikey                                                          
+resetpts/itp                                                                    
+geniee                                                                          
+ geniee: mesh has                 23134  jtet loops, max cycle length=          
+                                                                               4
+finish                                                                          
+boundary_components                                                             
+log/tty/off                                                                     
+finish                                                                          
+resetpts/itp                                                                    
+geniee                                                                          
+ geniee: mesh has                 23134  jtet loops, max cycle length=          
+                                                                               4
+finish                                                                          
+finish                                                                          
+cmo/addatt/mo_all/numbnd/vint/scalar/nnodes/linear/permanent/afgx/0/            
+finish                                                                          
+cmo/addatt/mo_all/id_numb/vint/scalar/nnodes/linear/permanent/afgx/0/           
+finish                                                                          
+sort/-def-/index/-def-/ikey_tmp/numbnd                                          
+cmo/addatt/mo_all/ikey_tmp/vint/scalar/nnodes///gax/0                           
+finish                                                                          
+ SORT: order key written to attribute: ikey_tmp                                 
+ 
+finish                                                                          
+ 
+ CONNECTED COMPONENTS:                                                          
+                  338  different exterior boundary components                   
+ Set#        Representitive Node #        # Nodes in Set                        
+            (numbnd_e(node#) attribute)                                         
+      1               27536                1587                                 
+      2               43960                 302                                 
+      3               47260                1477                                 
+      4               53061                 478                                 
+      5               68369                 930                                 
+      6               85292                  56                                 
+      7               98892                 226                                 
+      8              103151                 193                                 
+      9              115344                 213                                 
+     10              125062                  78                                 
+     11              130937                 117                                 
+     12              137699                2324                                 
+     13              144284                 560                                 
+     14              159403                 154                                 
+     15              165568                 195                                 
+     16              172130                 516                                 
+     17              177984                  55                                 
+     18              178791                 242                                 
+     19              185232                 212                                 
+     20              191879                 341                                 
+     21              193113                 146                                 
+     22              198580                 230                                 
+     23              198910                 295                                 
+     24              206844                 166                                 
+     25              215843                 181                                 
+     26              218507                 103                                 
+     27              221241                 171                                 
+     28              230218                 127                                 
+     29              231986                 103                                 
+     30              234621                  56                                 
+     31              241308                 118                                 
+     32              242987                 163                                 
+     33              252396                 588                                 
+     34              252664                 103                                 
+     35              256219                  45                                 
+     36              258185                 174                                 
+     37              265481                 108                                 
+     38              274141                 116                                 
+     39              277357                 103                                 
+     40              278345                 149                                 
+     41              282994                 525                                 
+     42              286547                 171                                 
+     43              291646                 177                                 
+     44              292045                 117                                 
+     45              295642                 238                                 
+     46              303880                 122                                 
+     47              304910                 125                                 
+     48              308369                 213                                 
+     49              310586                 139                                 
+     50              315568                 160                                 
+     51              316503                 128                                 
+     52              318573                 151                                 
+     53              322304                 104                                 
+     54              328030                  91                                 
+     55              328234                  83                                 
+     56              332663                 124                                 
+     57              333777                 110                                 
+     58              337024                 109                                 
+     59              340460                  99                                 
+     60              341580                  44                                 
+     61              342611                  79                                 
+     62              344600                  55                                 
+     63              345562                  80                                 
+     64              346117                  94                                 
+     65              350340                 351                                 
+     66              351829                  72                                 
+     67              352683                  52                                 
+     68              353614                 133                                 
+     69              355414                  94                                 
+     70              356467                  97                                 
+     71              358975                 109                                 
+     72              361879                 110                                 
+     73              363979                  71                                 
+     74              364027                  75                                 
+     75              366909                  90                                 
+     76              367617                  86                                 
+     77              369397                  81                                 
+     78              371128                  81                                 
+     79              371368                  72                                 
+     80              374742                  78                                 
+     81              374884                  82                                 
+     82              376123                  58                                 
+     83              378073                 114                                 
+     84              378756                  55                                 
+     85              384933                 103                                 
+     86              385080                  72                                 
+     87              386216                  97                                 
+     88              388102                  83                                 
+     89              392465                 119                                 
+     90              393928                  96                                 
+     91              394349                  57                                 
+     92              394685                  63                                 
+     93              396129                  57                                 
+     94              398017                 105                                 
+     95              398317                  71                                 
+     96              399474                  82                                 
+     97              400572                  68                                 
+     98              402482                  72                                 
+     99              403491                  57                                 
+    100              404089                  71                                 
+    101              407033                  72                                 
+    102              407055                  63                                 
+    103              407652                  57                                 
+    104              409304                  91                                 
+    105              409469                  51                                 
+    106              409770                  65                                 
+    107              412290                  54                                 
+    108              413487                  91                                 
+    109              414835                  75                                 
+    110              415602                  69                                 
+    111              416197                  87                                 
+    112              418389                  69                                 
+    113              418703                  52                                 
+    114              420056                  60                                 
+    115              420076                  85                                 
+    116              423026                  92                                 
+    117              423594                  40                                 
+    118              423806                  83                                 
+    119              425183                  43                                 
+    120              425299                  45                                 
+    121              425531                  77                                 
+    122              427238                  67                                 
+    123              427641                  79                                 
+    124              429894                  67                                 
+    125              431559                  68                                 
+    126              433494                 114                                 
+    127              433843                 106                                 
+    128              435636                  67                                 
+    129              436905                  67                                 
+    130              437548                  71                                 
+    131              439196                  81                                 
+    132              439662                  50                                 
+    133              440155                  47                                 
+    134              440205                  54                                 
+    135              440985                  40                                 
+    136              441944                 115                                 
+    137              442616                  72                                 
+    138              443670                  63                                 
+    139              443875                  53                                 
+    140              445148                  59                                 
+    141              446154                  80                                 
+    142              447453                  58                                 
+    143              448539                  73                                 
+    144              449137                  61                                 
+    145              449409                  82                                 
+    146              450966                  62                                 
+    147              451242                  68                                 
+    148              452250                  51                                 
+    149              452817                  50                                 
+    150              453569                  58                                 
+    151              454240                  62                                 
+    152              455608                  63                                 
+    153              455627                  90                                 
+    154              456683                  57                                 
+    155              459174                  60                                 
+    156              459200                  67                                 
+    157              460740                  58                                 
+    158              461294                  57                                 
+    159              462531                  83                                 
+    160              463536                  89                                 
+    161              464963                  40                                 
+    162              465498                  51                                 
+    163              467424                  61                                 
+    164              467786                  51                                 
+    165              468935                 103                                 
+    166              469657                  36                                 
+    167              470454                  63                                 
+    168              471985                  57                                 
+    169              472711                  71                                 
+    170              472739                  44                                 
+    171              473067                  63                                 
+    172              473871                  39                                 
+    173              473975                  65                                 
+    174              474832                  53                                 
+    175              475636                  46                                 
+    176              476316                  68                                 
+    177              477011                  82                                 
+    178              477902                  57                                 
+    179              478080                  54                                 
+    180              478674                  43                                 
+    181              479247                  58                                 
+    182              480056                  57                                 
+    183              480722                  60                                 
+    184              480741                  58                                 
+    185              481219                  46                                 
+    186              481871                  56                                 
+    187              482197                  54                                 
+    188              483058                  42                                 
+    189              483074                  42                                 
+    190              484055                  50                                 
+    191              484061                  55                                 
+    192              484724                  65                                 
+    193              486226                  71                                 
+    194              486420                  61                                 
+    195              487465                  56                                 
+    196              487927                  59                                 
+    197              488117                  69                                 
+    198              488955                  50                                 
+    199              489215                  39                                 
+    200              489718                  53                                 
+    201              490398                  58                                 
+    202              490449                  56                                 
+    203              491650                  70                                 
+    204              491795                  61                                 
+    205              492991                  57                                 
+    206              493814                  58                                 
+    207              494582                  71                                 
+    208              495332                  59                                 
+    209              495469                  51                                 
+    210              496312                  54                                 
+    211              497043                  46                                 
+    212              497477                  51                                 
+    213              498000                  67                                 
+    214              498288                  59                                 
+    215              499780                  52                                 
+    216              500495                  45                                 
+    217              501066                  66                                 
+    218              501141                  63                                 
+    219              501987                  66                                 
+    220              503211                  53                                 
+    221              503564                  54                                 
+    222              504366                  41                                 
+    223              504855                  52                                 
+    224              505528                  52                                 
+    225              505903                  55                                 
+    226              506436                  56                                 
+    227              507474                  58                                 
+    228              507709                  45                                 
+    229              508098                  76                                 
+    230              508754                  69                                 
+    231              509705                  45                                 
+    232              509979                  36                                 
+    233              510444                  53                                 
+    234              510564                  58                                 
+    235              511208                  57                                 
+    236              511737                  54                                 
+    237              512089                  52                                 
+    238              512595                  50                                 
+    239              513474                  54                                 
+    240              513566                  54                                 
+    241              514134                  62                                 
+    242              514750                  41                                 
+    243              515085                  49                                 
+    244              516146                  49                                 
+    245              516314                  55                                 
+    246              517231                  57                                 
+    247              517564                  52                                 
+    248              518113                  50                                 
+    249              518233                  45                                 
+    250              519073                  57                                 
+    251              519601                  53                                 
+    252              519891                  54                                 
+    253              520252                  51                                 
+    254              520729                  45                                 
+    255              520969                  43                                 
+    256              521470                  54                                 
+    257              521694                  41                                 
+    258              521916                  54                                 
+    259              522722                  55                                 
+    260              522754                  77                                 
+    261              523574                  54                                 
+    262              524672                  62                                 
+    263              524953                  50                                 
+    264              525487                  38                                 
+    265              526198                  79                                 
+    266              526957                  54                                 
+    267              527166                  66                                 
+    268              528229                  50                                 
+    269              528724                  45                                 
+    270              528840                  54                                 
+    271              529614                  55                                 
+    272              530390                  55                                 
+    273              531300                  43                                 
+    274              531784                  57                                 
+    275              531816                  46                                 
+    276              532297                  55                                 
+    277              533016                  55                                 
+    278              533267                  54                                 
+    279              534247                  54                                 
+    280              534588                  81                                 
+    281              534903                  45                                 
+    282              534958                  47                                 
+    283              535365                  50                                 
+    284              536148                  52                                 
+    285              536642                  50                                 
+    286              536754                  48                                 
+    287              537623                  74                                 
+    288              538103                  51                                 
+    289              538599                  54                                 
+    290              538714                  35                                 
+    291              539182                  41                                 
+    292              539672                  66                                 
+    293              540282                  52                                 
+    294              540823                  64                                 
+    295              540998                  39                                 
+    296              541261                  41                                 
+    297              541604                  38                                 
+    298              541930                  53                                 
+    299              542087                  49                                 
+    300              543123                  43                                 
+    301              543375                  52                                 
+    302              543831                  51                                 
+    303              544466                  49                                 
+    304              545369                  47                                 
+    305              545579                  36                                 
+    306              545602                  43                                 
+    307              545932                  38                                 
+    308              546532                  54                                 
+    309              547257                  46                                 
+    310              547776                  46                                 
+    311              547977                  39                                 
+    312              548473                  44                                 
+    313              548719                  45                                 
+    314              549062                  43                                 
+    315              549449                  53                                 
+    316              550190                  50                                 
+    317              550207                  49                                 
+    318              551068                  48                                 
+    319              551707                  49                                 
+    320              551999                  47                                 
+    321              552482                  50                                 
+    322              552893                  43                                 
+    323              553106                  50                                 
+    324              553671                  53                                 
+    325              554078                  45                                 
+    326              554186                  67                                 
+    327              554835                  50                                 
+    328              555338                  47                                 
+    329              555992                  49                                 
+    330              556382                  55                                 
+    331              556489                  47                                 
+    332              557186                  51                                 
+    333              557259                  37                                 
+    334              557874                  50                                 
+    335              558304                  48                                 
+    336              558860                  37                                 
+    337              559544                  51                                 
+    338              559856                  33                                 
+ 
+cmo/DELATT/mo_all/ikey_tmp                                                      
+finish                                                                          
+log/tty/on                                                                      
+finish                                                                          
+#dump / full_mesh.gmv / mo_all                                                  
+dump/full_mesh.inp/mo_all                                                       
+dump/avs/full_mesh.inp/mo_all                                                   
+cmo/modatt/-def-/-def-/ioflag/x                                                 
+finish                                                                          
+finish                                                                          
+dump/lagrit/full_mesh.lg/mo_all                                                 
+dump/pflotran/full_mesh/mo_all/nofilter_zero                                    
+***Construct Regular Sparse Matrix:2D***                                        
+Matbldtri: total neg       32 mincoef=  -3.9602544E-06 maxcoef=   5.3299018E+00 
+Negative coeff2d:        sort   edge     vor_coeff        row_node  col_node    
+Negative coeff2d:          1   2221112 -3.9602544E-06    309561    121307       
+Negative coeff2d:          2    876458 -3.9602544E-06    121307    309561       
+Negative coeff2d:          3   3920308 -1.8391279E-06    556258    556239       
+Negative coeff2d:          4   3920177 -1.8391279E-06    556239    556258       
+Negative coeff2d:          5   2280411 -1.4458468E-06    318068    318054       
+Negative coeff2d:          6   2280328 -1.4458468E-06    318054    318068       
+Negative coeff2d:          7   3881943 -1.6902122E-11    550569    550574       
+Negative coeff2d:          8   3881969 -1.6902122E-11    550574    550569       
+Negative coeff2d:          9   1693698 -3.5923274E-12    235321    235273       
+Negative coeff2d:         10   1693351 -3.5923274E-12    235273    235321       
+Negative coeff2d:         11   2748052 -3.5513804E-12    384949    384956       
+Negative coeff2d:         12   2748089 -3.5513804E-12    384956    384949       
+Negative coeff2d:         13   3940851 -7.3243557E-13    559316    559321       
+Negative coeff2d:         14   3940871 -7.3243557E-13    559321    559316       
+Negative coeff2d:         15   1907043 -3.9957896E-13    265338    265337       
+Negative coeff2d:         16   1907041 -3.9957896E-13    265337    265338       
+Negative coeff2d:         17    387423 -8.5816579E-14     53390     53461       
+Negative coeff2d:         18    387935 -8.5816579E-14     53461     53390       
+Negative coeff2d:         19   3828302 -1.3209934E-14    542576    542575       
+Negative coeff2d:         20   3828299 -1.3209934E-14    542575    542576       
+Negative coeff2d:         21   3650315 -1.1753073E-14    516250    516248       
+Negative coeff2d:         22   3650310 -1.1753073E-14    516248    516250       
+Negative coeff2d:         23   2911065 -1.0381810E-14    408377    408347       
+Negative coeff2d:         24   2910861 -1.0381810E-14    408347    408377       
+Negative coeff2d:         25   2959764 -8.2273955E-15    415317    415315       
+Negative coeff2d:         26   2959758 -8.2273955E-15    415315    415317       
+Negative coeff2d:         27   3354670 -6.6017552E-15    472745    472725       
+Negative coeff2d:         28   3354563 -6.6017552E-15    472725    472745       
+Negative coeff2d:         29   2489329 -4.2318856E-15    347881    347750       
+Negative coeff2d:         30   2488467 -4.2318856E-15    347750    347881       
+------------                                                                    
+Matbldtri                                                                       
+Number of Nodes             =     559857                                        
+Max. Connection to a Node   =         16                                        
+Number of Area Coefficients =    3944457                                        
+Minimum Voronoi area        =   2.9510866E-04                                   
+Maximum Voronoi area        =   2.8536615E-01                                   
+Minimum Voronoi edge length =  -3.9602544E-06                                   
+Maximum Voronoi edge length =   5.3299018E+00                                   
+Total   Voronoi area        =   7.0288192E+03                                   
+Total   Triangle area       =   7.0288192E+03                                   
+ 
+Matbldtri  writing PFLOTRAN format.                                             
+PFLOTRAN total CELL nodes =       559857                                        
+PFLOTRAN will not filter zero coefs.                                            
+PFLOTRAN coefficient from matbld Aij/Xij  max  =   5.3299018E+00                
+PFLOTRAN total matbld matrix coefficients   =   3944457                         
+PFLOTRAN matrix  i>j (written)              =   1692300                         
+PFLOTRAN matrix  i<=j (not written)        =    2252157                         
+PFLOTRAN zero coefs < epsilon    (written)  =        35                         
+ 
+PFLOTRAN total CONNECTIONS written         =    1692300                         
+PFLOTRAN coefficient  Aij min              =  -5.7487235E-07                    
+PFLOTRAN coefficient  Aij max              =   5.8775804E-01                    
+ 
+*** SPARSE COEFFICIENT MATRIX for 2D SUCCESSFUL ***                             
+ 
+2D Matrix Coefficient file written with name full_mesh.uge                      
+ 
+dump/stor/full_mesh/mo_all/ascii                                                
+***Construct Regular Sparse Matrix:2D***                                        
+Matbldtri: total neg       32 mincoef=  -3.9602544E-06 maxcoef=   5.3299018E+00 
+Negative coeff2d:        sort   edge     vor_coeff        row_node  col_node    
+Negative coeff2d:          1   2221112 -3.9602544E-06    309561    121307       
+Negative coeff2d:          2    876458 -3.9602544E-06    121307    309561       
+Negative coeff2d:          3   3920308 -1.8391279E-06    556258    556239       
+Negative coeff2d:          4   3920177 -1.8391279E-06    556239    556258       
+Negative coeff2d:          5   2280411 -1.4458468E-06    318068    318054       
+Negative coeff2d:          6   2280328 -1.4458468E-06    318054    318068       
+Negative coeff2d:          7   3881943 -1.6902122E-11    550569    550574       
+Negative coeff2d:          8   3881969 -1.6902122E-11    550574    550569       
+Negative coeff2d:          9   1693698 -3.5923274E-12    235321    235273       
+Negative coeff2d:         10   1693351 -3.5923274E-12    235273    235321       
+Negative coeff2d:         11   2748052 -3.5513804E-12    384949    384956       
+Negative coeff2d:         12   2748089 -3.5513804E-12    384956    384949       
+Negative coeff2d:         13   3940851 -7.3243557E-13    559316    559321       
+Negative coeff2d:         14   3940871 -7.3243557E-13    559321    559316       
+Negative coeff2d:         15   1907043 -3.9957896E-13    265338    265337       
+Negative coeff2d:         16   1907041 -3.9957896E-13    265337    265338       
+Negative coeff2d:         17    387423 -8.5816579E-14     53390     53461       
+Negative coeff2d:         18    387935 -8.5816579E-14     53461     53390       
+Negative coeff2d:         19   3828302 -1.3209934E-14    542576    542575       
+Negative coeff2d:         20   3828299 -1.3209934E-14    542575    542576       
+Negative coeff2d:         21   3650315 -1.1753073E-14    516250    516248       
+Negative coeff2d:         22   3650310 -1.1753073E-14    516248    516250       
+Negative coeff2d:         23   2911065 -1.0381810E-14    408377    408347       
+Negative coeff2d:         24   2910861 -1.0381810E-14    408347    408377       
+Negative coeff2d:         25   2959764 -8.2273955E-15    415317    415315       
+Negative coeff2d:         26   2959758 -8.2273955E-15    415315    415317       
+Negative coeff2d:         27   3354670 -6.6017552E-15    472745    472725       
+Negative coeff2d:         28   3354563 -6.6017552E-15    472725    472745       
+Negative coeff2d:         29   2489329 -4.2318856E-15    347881    347750       
+Negative coeff2d:         30   2488467 -4.2318856E-15    347750    347881       
+------------                                                                    
+Matbldtri                                                                       
+Number of Nodes             =     559857                                        
+Max. Connection to a Node   =         16                                        
+Number of Area Coefficients =    3944457                                        
+Minimum Voronoi area        =   2.9510866E-04                                   
+Maximum Voronoi area        =   2.8536615E-01                                   
+Minimum Voronoi edge length =  -3.9602544E-06                                   
+Maximum Voronoi edge length =   5.3299018E+00                                   
+Total   Voronoi area        =   7.0288192E+03                                   
+Total   Triangle area       =   7.0288192E+03                                   
+ 
+Matbldtri  writing FEHM stor format.                                            
+ 
+*** SPARSE COEFFICIENT MATRIX for 2D SUCCESSFUL ***                             
+ 
+2D Matrix Coefficient file written with name full_mesh.stor                     
+ 
+# Dump out Material ID Dat file                                                 
+cmo/modatt/mo_all/isn/ioflag/l                                                  
+cmo/modatt/mo_all/x_four/ioflag/l                                               
+CMO_MODATT error: attribute does not exist:                                     
+mo_all                          x_four                                          
+ ERROR CMO: modatt  mo_all     -1                                               
+ 
+error in command : cmo/modatt/mo_all/x_four/ioflag/l                            
+cmo/modatt/mo_all/fac_n/ioflag/l                                                
+CMO_MODATT error: attribute does not exist:                                     
+mo_all                          fac_n                                           
+ ERROR CMO: modatt  mo_all     -1                                               
+ 
+error in command : cmo/modatt/mo_all/fac_n/ioflag/l                             
+cmo/modatt/mo_all/dfield/ioflag/l                                               
+cmo/modatt/mo_all/rf_field/ioflag/l                                             
+CMO_MODATT error: attribute does not exist:                                     
+mo_all                          rf_field                                        
+ ERROR CMO: modatt  mo_all     -1                                               
+ 
+error in command : cmo/modatt/mo_all/rf_field/ioflag/l                          
+cmo/modatt/mo_all/a_b/ioflag/l                                                  
+CMO_MODATT error: attribute does not exist:                                     
+mo_all                          a_b                                             
+ ERROR CMO: modatt  mo_all     -1                                               
+ 
+error in command : cmo/modatt/mo_all/a_b/ioflag/l                               
+cmo/modatt/mo_all/b_a/ioflag/l                                                  
+cmo/modatt/mo_all/xnorm/ioflag/l                                                
+CMO_MODATT error: attribute does not exist:                                     
+mo_all                          xnorm                                           
+ ERROR CMO: modatt  mo_all     -1                                               
+ 
+error in command : cmo/modatt/mo_all/xnorm/ioflag/l                             
+cmo/modatt/mo_all/ynorm/ioflag/l                                                
+CMO_MODATT error: attribute does not exist:                                     
+mo_all                          ynorm                                           
+ ERROR CMO: modatt  mo_all     -1                                               
+ 
+error in command : cmo/modatt/mo_all/ynorm/ioflag/l                             
+cmo/modatt/mo_all/znorm/ioflag/l                                                
+CMO_MODATT error: attribute does not exist:                                     
+mo_all                          znorm                                           
+ ERROR CMO: modatt  mo_all     -1                                               
+ 
+error in command : cmo/modatt/mo_all/znorm/ioflag/l                             
+cmo/modatt/mo_all/evol_one/ioflag/l                                             
+cmo/modatt/mo_all/evol_all/ioflag/l                                             
+CMO_MODATT error: attribute does not exist:                                     
+mo_all                          evol_all                                        
+ ERROR CMO: modatt  mo_all     -1                                               
+ 
+error in command : cmo/modatt/mo_all/evol_all/ioflag/l                          
+cmo/modatt/mo_all/numbnd/ioflag/l                                               
+cmo/modatt/mo_all/id_numb/ioflag/l                                              
+cmo/modatt/mo_all/evol_all/ioflag/l                                             
+CMO_MODATT error: attribute does not exist:                                     
+mo_all                          evol_all                                        
+ ERROR CMO: modatt  mo_all     -1                                               
+ 
+error in command : cmo/modatt/mo_all/evol_all/ioflag/l                          
+cmo/modatt/mo_all/itp/ioflag/l                                                  
+cmo/modatt/mo_all/icr/ioflag/l                                                  
+cmo/modatt/mo_all/meshid/ioflag/l                                               
+CMO_MODATT error: attribute does not exist:                                     
+mo_all                          meshid                                          
+ ERROR CMO: modatt  mo_all     -1                                               
+ 
+error in command : cmo/modatt/mo_all/meshid/ioflag/l                            
+cmo/modatt/mo_all/id_n_1/ioflag/l                                               
+CMO_MODATT error: attribute does not exist:                                     
+mo_all                          id_n_1                                          
+ ERROR CMO: modatt  mo_all     -1                                               
+ 
+error in command : cmo/modatt/mo_all/id_n_1/ioflag/l                            
+cmo/modatt/mo_all/id_n_2/ioflag/l                                               
+CMO_MODATT error: attribute does not exist:                                     
+mo_all                          id_n_2                                          
+ ERROR CMO: modatt  mo_all     -1                                               
+ 
+error in command : cmo/modatt/mo_all/id_n_2/ioflag/l                            
+cmo/modatt/mo_all/pt_gtg/ioflag/l                                               
+CMO_MODATT error: attribute does not exist:                                     
+mo_all                          pt_gtg                                          
+ ERROR CMO: modatt  mo_all     -1                                               
+ 
+error in command : cmo/modatt/mo_all/pt_gtg/ioflag/l                            
+cmo/modatt/mo_all/pt_gtg/ioflag/l                                               
+CMO_MODATT error: attribute does not exist:                                     
+mo_all                          pt_gtg                                          
+ ERROR CMO: modatt  mo_all     -1                                               
+ 
+error in command : cmo/modatt/mo_all/pt_gtg/ioflag/l                            
+# Dump out Material ID Dat file                                                 
+dump/avs2/materialid.dat/mo_all/0 0 2 0                                         
+WARNING: dump/avs  iopt_points=    0                                            
+WARNING: dump/avs  iopt_elements=    0                                          
+WARNING: dump/avs  iopt_values_node=    2                                       
+WARNING: dump/avs  iopt_values_elem=    0                                       
+WARNING: dump/avs  will produce non-standard AVS output that                    
+WARNING: read/avs may not be able to read.                                      
+cmo/modatt/-def-/-def-/ioflag/x                                                 
+finish                                                                          
+cmo/modatt/mo_all/imt1/ioflag/l                                                 
+cmo/modatt/mo_all/family_id/ioflag/l                                            
+cmo/modatt/mo_all/evol_onen/ioflag/l                                            
+CMO_MODATT error: attribute does not exist:                                     
+mo_all                          evol_onen                                       
+ ERROR CMO: modatt  mo_all     -1                                               
+ 
+error in command : cmo/modatt/mo_all/evol_onen/ioflag/l                         
+# Dump mesh with no attributes for viz                                          
+dump/full_mesh_viz.inp/mo_all                                                   
+dump/avs/full_mesh_viz.inp/mo_all                                               
+cmo/modatt/-def-/-def-/ioflag/x                                                 
+finish                                                                          
+finish                                                                          
+# Dump out zone files                                                           
+define/XMAX/1.249990e+01                                                        
+define/XMIN/-1.249990e+01                                                       
+define/YMAX/1.249990e+01                                                        
+define/YMIN/-1.249990e+01                                                       
+define/ZMAX/1.249990e+01                                                        
+define/ZMIN/-1.249990e+01                                                       
+define/ZONE/1                                                                   
+define/FOUT/boundary_top                                                        
+pset/top/attribute/zic/1,0,0/gt/ZMAX                                            
+ 
+ THE PSET  top  HAS        973 POINTS                                           
+pset/top/zone/FOUT/ascii/ZONE                                                   
+PSET: THERE ARE  1 PSETS DEFINED                                                
+  top                                                                           
+PSET: Appended .zone to the file name                                           
+PSET: OUTPUT top    1 PSETS TO FILE                                             
+define/ZONE/2                                                                   
+define/FOUT/boundary_bottom                                                     
+pset/bottom/attribute/zic/1,0,0/lt/ZMIN                                         
+ 
+ THE PSET  bottom  HAS       1617 POINTS                                        
+pset/bottom/zone/FOUT/ascii/ZONE                                                
+PSET: THERE ARE  2 PSETS DEFINED                                                
+  top               bottom                                                      
+PSET: Appended .zone to the file name                                           
+PSET: OUTPUT bottom    1 PSETS TO FILE                                          
+define/ZONE/3                                                                   
+define/FOUT/boundary_left_w                                                     
+pset/left_w/attribute/xic/1,0,0/lt/XMIN                                         
+ 
+ THE PSET  left_w  HAS       1005 POINTS                                        
+pset/left_w/zone/FOUT/ascii/ZONE                                                
+PSET: THERE ARE  3 PSETS DEFINED                                                
+  top               bottom            left_w                                    
+PSET: Appended .zone to the file name                                           
+PSET: OUTPUT left_w    1 PSETS TO FILE                                          
+define/ZONE/4                                                                   
+define/FOUT/boundary_front_n                                                    
+pset/front_n/attribute/yic/1,0,0/gt/YMAX                                        
+ 
+ THE PSET  front_n  HAS        896 POINTS                                       
+pset/front_n/zone/FOUT/ascii/ZONE                                               
+PSET: THERE ARE  4 PSETS DEFINED                                                
+  top               bottom            left_w            front_n                 
+PSET: Appended .zone to the file name                                           
+PSET: OUTPUT front_n    1 PSETS TO FILE                                         
+define/ZONE/5                                                                   
+define/FOUT/boundary_right_e                                                    
+pset/right_e/attribute/xic/1,0,0/gt/XMAX                                        
+ 
+ THE PSET  right_e  HAS       1029 POINTS                                       
+pset/right_e/zone/FOUT/ascii/ZONE                                               
+PSET: THERE ARE  5 PSETS DEFINED                                                
+  top               bottom            left_w            front_n                 
+  right_e                                                                       
+PSET: Appended .zone to the file name                                           
+PSET: OUTPUT right_e    1 PSETS TO FILE                                         
+define/ZONE/6                                                                   
+define/FOUT/boundary_back_s                                                     
+pset/back_s/attribute/yic/1,0,0/lt/YMIN                                         
+ 
+ THE PSET  back_s  HAS        768 POINTS                                        
+pset/back_s/zone/FOUT/ascii/ZONE                                                
+PSET: THERE ARE  6 PSETS DEFINED                                                
+  top               bottom            left_w            front_n                 
+  right_e           back_s                                                      
+PSET: Appended .zone to the file name                                           
+PSET: OUTPUT back_s    1 PSETS TO FILE                                          
+quality                                                                         
+ 
+epsilonl, epsilonaspect:   4.9704513E-12  1.2279692E-34                         
+--------------------------------------------                                    
+elements with aspect ratio < .01:                    0                          
+elements with aspect ratio b/w .01 and .02:          0                          
+elements with aspect ratio b/w .02 and .05:          0                          
+elements with aspect ratio b/w .05 and .1 :          0                          
+elements with aspect ratio b/w .1  and .2 :          2                          
+elements with aspect ratio b/w .2  and .5 :       4375                          
+elements with aspect ratio b/w .5  and 1. :    1128013                          
+min aspect ratio =  0.1835E+00  max aspect ratio =  0.1000E+01                  
+ 
+epsilonvol:   3.4694470E-09                                                     
+---------------------------------------                                         
+element volumes b/w  0.2433E-03 and  0.9373E-03:     38588                      
+element volumes b/w  0.9373E-03 and  0.3611E-02:    597885                      
+element volumes b/w  0.3611E-02 and  0.1391E-01:    381059                      
+element volumes b/w  0.1391E-01 and  0.5360E-01:    105135                      
+element volumes b/w  0.5360E-01 and  0.2065E+00:      9723                      
+min volume =   2.4328338E-04  max volume =   2.0652385E-01                      
+-----------------------------------------------------------                     
+   1132390 total elements evaluated.                                            
+ 
+finish                                                                          
+LaGriT successfully completed                                                   
